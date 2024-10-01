@@ -1,4 +1,5 @@
 n=int(input())
+# n=8 or n=9
 A=[]
 a="xy"
 for i in range(n):
@@ -13,5 +14,6 @@ for i in range(n):
     A=[]
 print(a[::-1])
 a=a[::-1]
-print(a[350-1])
+#print(a[200-1]) or print(a[350-1])
+
 
